@@ -1,35 +1,37 @@
 body {
+    font-family: 'Finlandica', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Oswald', sans-serif;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    background-image: url("donation9.jpg");
+    background-repeat: repeat-x;
+    background-position: top;
+    margin-right: 200px;
 }
 
 h1 {
-    font: size 100px;
-    color: white
-}
-
-body {
-    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+    color: white;
 }
 
 h2 {
-    font: size 100px;
-    color: white
-}
-
-body {
-    background-image: url("donation9.jpg");
-    background-repeat: repeat-x;
-    background-position: top right;
-    margin-right: 200px;
+    font-size: 20px;
+    color: white;
 }
 
 .link-button {
     text-decoration: none;
-    background-color: skyblue;
-    padding: 10px 0px
+    background-color: aqua;
+    padding: 10px 0px;
+}
+
+section {
+    display: flow-root;
+}
+
+div {
+    width: 300px border: 15px;
+    padding: 50px margin: 20px
 }
